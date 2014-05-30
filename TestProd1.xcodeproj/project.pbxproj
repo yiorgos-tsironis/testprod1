@@ -21,6 +21,7 @@
 		5EBDB86F19385990004EACB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBDB85119385990004EACB9 /* UIKit.framework */; };
 		5EBDB87719385990004EACB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDB87519385990004EACB9 /* InfoPlist.strings */; };
 		5EBDB87919385990004EACB9 /* TestProd1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB87819385990004EACB9 /* TestProd1Tests.m */; };
+		5EBDB8871938625E004EACB9 /* MapForItenerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB8861938625E004EACB9 /* MapForItenerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5EBDB87419385990004EACB9 /* TestProd1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProd1Tests-Info.plist"; sourceTree = "<group>"; };
 		5EBDB87619385990004EACB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EBDB87819385990004EACB9 /* TestProd1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProd1Tests.m; sourceTree = "<group>"; };
+		5EBDB8851938625E004EACB9 /* MapForItenerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItenerary.h; sourceTree = "<group>"; };
+		5EBDB8861938625E004EACB9 /* MapForItenerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItenerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				5EBDB86319385990004EACB9 /* ViewController.m */,
 				5EBDB86519385990004EACB9 /* Images.xcassets */,
 				5EBDB85419385990004EACB9 /* Supporting Files */,
+				5EBDB8851938625E004EACB9 /* MapForItenerary.h */,
+				5EBDB8861938625E004EACB9 /* MapForItenerary.m */,
 			);
 			path = TestProd1;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBDB8871938625E004EACB9 /* MapForItenerary.m in Sources */,
 				5EBDB86419385990004EACB9 /* ViewController.m in Sources */,
 				5EBDB85E19385990004EACB9 /* AppDelegate.m in Sources */,
 				5EBDB85A19385990004EACB9 /* main.m in Sources */,
