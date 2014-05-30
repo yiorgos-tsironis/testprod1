@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Yiorgos. All rights reserved.
 //
 
+/*
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -24,6 +25,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+@end
+*/
+
+#import "ViewController.h"
+
+@implementation ViewController
+
+#pragma mark - IBActions
+
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is a Git tutorial");
 }
 
 @end
